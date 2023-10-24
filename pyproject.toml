@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "egen"
+version = "0.1.0"
+description = ""
+authors = ["parz3val"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+starlette = "^0.31.1"
+uvicorn = "^0.23.2"
+python-multipart = "^0.0.6"
+sympy = "^1.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
